@@ -1,4 +1,5 @@
-Introduction
+#Introduction
+
 Brick Breaker is a game which has been around since the early days of computer gaming, from the days of the PAC-MAN and PONG, Brick-breaker made it’s way up through the Atari Game Universe under the name “Breakout” where a launcher would be shooting small loads of ammunition to collect points.
 Later the most famous and the most publicly reached version of game was introduced by Blackberry a Canadian Mobile Phone company.
 Similarly I thought that such games who hold value in the hearts of those computerphiles from the 90s deserve to see new versions of their game developed.
