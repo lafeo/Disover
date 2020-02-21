@@ -1,4 +1,5 @@
-Introduction
+- Introduction
+
 Brick Breaker is a game which has been around since the early days of computer gaming, from the days of the PAC-MAN and PONG, Brick-breaker made it’s way up through the Atari Game Universe under the name “Breakout” where a launcher would be shooting small loads of ammunition to collect points.
 Later the most famous and the most publicly reached version of game was introduced by Blackberry a Canadian Mobile Phone company.
 Similarly I thought that such games who hold value in the hearts of those computerphiles from the 90s deserve to see new versions of their game developed.
@@ -12,24 +13,24 @@ The system has been made extremely concise, reliable through concepts of inter-d
  
  
  
--        Raayaan Sahu
+~      Raayaan Sahu
  
  
 
 
-Methodology
+- Methodology
 
 This program contains four classes, namely the Introduction.class, memory hub of the program: Informacion.class, the logic of the game: BrickBreaker.class, ParserAndUserProgress.class also known as the bonding class and finally the brain of the entire program testing.class.
 This program is made with fundamental functions which the Java as such has to offer. This program is an animated game, made without any GUI functions but with pure logic and essential maths. 
 
-    The Introduction.class using Unicode characters and a special printing patterns to give the effect of being animated, this delay-print method of animation followed by many stop motion animation studios is achieved by printing single frames ( here characters ) after a short delay in time which gives the following effect.
+   The 'Introduction.class' using Unicode characters and a special printing patterns to give the effect of being animated, this delay-print method of animation followed by many stop motion animation studios is achieved by printing single frames ( here characters ) after a short delay in time which gives the following effect.
 The class introduces us to Discover: A Brick Breaker Sequel by lafeo_007. It is a necessity since the aesthetics of this game is from the Arcade era which strongly dictates used of pixelated art.
 The introduction class also helps the system gather the initial most important information from the user, the name. This allows the system to later check the return of a user or an arrival of a new user altogether. 
 The name is saved in a variable statically initialized,
 
 static String name = "JOE HONEY SINGS";
 
-        ParserAndUserProgress picks it up from here. Before the system can progress it needs to make sure the identity of the user. The way the system does that is by maintaining a singular log, “USERS.md”. 
+   'ParserAndUserProgress' picks it up from here. Before the system can progress it needs to make sure the identity of the user. The way the system does that is by maintaining a singular log, “USERS.md”. 
 ParserAndUserProgress.resume( ) is initially called to reduce errors which may lead to accumulation of the same named user. Therefore, this method functions under the universal flag boolean variable,
 
 static boolean newUser = true;
